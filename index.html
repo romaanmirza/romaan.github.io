@@ -49,6 +49,29 @@
             padding-bottom: 5px;
         }
 
+        .profile-pic {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 150px;
+            border-radius: 50%;
+        }
+
+        .contact-info {
+            text-align: center;
+        }
+
+        .linkedin-button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #0077b5;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
         footer {
             text-align: center;
             padding: 10px;
@@ -78,6 +101,7 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
+            <img src="profile-picture.jpg" alt="Muhammad Rumaan" class="profile-pic">
             <p>Welcome to my portfolio website! My name is Muhammad Rumaan, and I am an AI researcher with a passion for developing innovative solutions in the field of artificial intelligence. My work focuses on machine learning, deep learning, and natural language processing.</p>
         </section>
 
@@ -109,9 +133,10 @@
 
         <section id="contact">
             <h2>Contact</h2>
-            <p>If you would like to get in touch, please email me at <a href="mailto:
-romaanmirza@gmail.com">
-romaanmirza@gmail.com</a>.</p>
+            <p class="contact-info">If you would like to get in touch, please email me at <a href="mailto:romaanmirza@gmail.com">romaanmirza@gmail.com</a>.</p>
+            <p class="contact-info">
+                <a href="https://www.linkedin.com/in/your-linkedin-profile" class="linkedin-button">LinkedIn Profile</a>
+            </p>
         </section>
     </main>
 
@@ -120,3 +145,4 @@ romaanmirza@gmail.com</a>.</p>
     </footer>
 </body>
 </html>
+
